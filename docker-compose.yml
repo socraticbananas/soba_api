@@ -20,6 +20,6 @@ services:
     image: ghost
     restart: always
     ports:
-      - 8080:2368
+      - 2368:2368
     depends_on:
       - web
